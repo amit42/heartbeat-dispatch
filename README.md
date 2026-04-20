@@ -10,6 +10,10 @@ Devices send a periodic heartbeat to the server. Based on the device state and a
 
 There are no persistent connections or push mechanisms. Everything is driven by the device polling the backend.
 
+## API documentation
+
+- [Heartbeat API](docs/heartbeat-api.md) — `POST /v1/heartbeat` and request/response details
+
 ## Core ideas
 
 - Devices are stateless clients that periodically report their state.
